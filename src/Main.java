@@ -6,9 +6,13 @@ public class Main {
 
         // Person object 2 - Overloaded constructor
 
-        Person p2 = new Person(72, 70, "Black", "Barack Obama", 170);
+//        Person p2 = new Person(72, 70, "Black", "Barack Obama", 170);
+//        System.out.println(p2.name);
 
-        System.out.println(p2.name);
+        Person p2 = new Person(72, 70);
+        System.out.println(p2.age);
+
+        Person p3 = p2.Call_Privates();
 
     }
 }
